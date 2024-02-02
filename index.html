@@ -15,6 +15,9 @@
             tailwind.config = {
                 theme: {
                     extend: {
+                        screens: {
+                            '2md': '980px',
+                        },
                         colors: {
                             bgColor: '#d5d4ce',
                             lineLightBrown: '#8a6a40',
@@ -35,14 +38,14 @@
         </style>
     </head>
     <body class="bg-bgColor">
-        <header class="h-52 mt-14 w-screen absolute top-0 z-10 bg-lineLightBrown">
+        <header class="h-52 mt-14 w-screen absolute top-0 z-10 bg-lineLightBrown hidden md:block">
             <div
-                class="h-full before:block before:absolute before:ml-10 before:mr-40 before:inset-0 before:bg-lineDarkBrown before:-skew-x-12"
+                class="h-full before:block before:absolute before:ml-6 2md:before:ml-10 before:mr-20 2md:before:mr-40 before:inset-0 before:bg-lineDarkBrown before:-skew-x-6 2md:before:-skew-x-12"
             ></div>
         </header>
-        <div class="xl:px-mainLayoutCalc px-20 flex">
+        <div class="px-10 2md:px-20 xl:px-mainLayoutCalc hidden md:flex md:flex-row">
             <aside
-                class="max-w-80 text-textOnBrownBg bg-lineLightBrown flex flex-col px-10 gap-8 pt-10 min-h-screen pb-10"
+                class="md:max-w-72 2md:max-w-80 text-textOnBrownBg bg-lineLightBrown flex flex-col items-center px-6 2md:px-10 gap-8 pt-10 min-h-screen pb-10"
             >
                 <div class="h-60 w-60 rounded-full bg-lineDarkBrown relative z-20">
                     <img
@@ -142,19 +145,20 @@
                     >
                         Language
                     </h2>
-                    <div class="pl-6">
-                        English (Intermediate+)
-                        <span class="font-bold">B1+</span>
-                    </div>
+                    <ul class="marker:textOnBrownBg list-disc pl-6 flex flex-col gap-2">
+                        <li>Russian (Advanced) C1</li>
+                        <li>English (Intermediate+) B1+</li>
+                    </ul>
                 </section>
             </aside>
             <main class="flex flex-col gap-8 pt-14 px-10 grow">
                 <h1
-                    class="h-52 -ml-6 relative z-20 text-white text-6xl font-bold flex flex-col justify-around"
+                    class="h-52 -ml-6 relative z-20 text-white text-5xl 2md:text-6xl font-bold flex flex-col justify-around"
                 >
-                    <span class="-ml-10">NIKITA</span>
+                    <span class="-ml-12 2md:-ml-10">NIKITA</span>
                     <span>ZAVADSKIY</span>
-                    <span class="block text-textOnBrownBg text-3xl ml-10 font-normal"
+                    <span
+                        class="block text-textOnBrownBg text-2xl 2md:text-3xl ml-5 2md:ml-10 font-normal"
                         >Frontend React Developer</span
                     >
                 </h1>
@@ -228,6 +232,206 @@
                     </p>
                 </section>
             </main>
+        </div>
+        <div class="flex flex-col items-center gap-10 md:hidden py-10 px-6">
+            <header class="h-52 mt-14 w-screen absolute top-0 z-10 bg-lineLightBrown">
+                <div
+                    class="h-full before:block before:absolute before:mx-6 before:inset-0 before:bg-lineDarkBrown before:-skew-x-12"
+                ></div>
+            </header>
+
+            <div class="w-full flex justify-around relative z-20">
+                <div class="h-60 w-60 rounded-full bg-lineLightBrown">
+                    <img
+                        src="images/photo.jpg"
+                        alt="photo"
+                        class="w-full h-full rounded-full p-1"
+                    />
+                </div>
+                <h2
+                    class="relative z-20 text-3xl font-bold hidden sm:flex flex-col justify-center text-lineLightBrown"
+                >
+                    <span class="text-white text-center">NIKITA ZAVADSKIY</span>
+                    <span class="block text-xl ml-5 2md:ml-10 font-normal text-textOnBrownBg">
+                        Frontend React Developer
+                    </span>
+                </h2>
+            </div>
+            <h2
+                class="relative z-20 text-4xl font-bold flex flex-col items-center justify-center text-lineLightBrown"
+            >
+                <span class="text-center">NIKITA ZAVADSKIY</span>
+                <span class="block text-xl ml-5 2md:ml-10 font-normal">
+                    Frontend React Developer
+                </span>
+            </h2>
+            <div class="flex justify-center gap-4 flex-wrap w-full">
+                <section
+                    class="flex flex-col gap-4 bg-lineLightBrown rounded-2xl py-6 px-8 text-textOnBrownBg w-72"
+                >
+                    <h2 class="flex justify-center text-2xl">Contact me</h2>
+                    <ul class="self-start flex flex-col gap-2.5">
+                        <li class="flex items-center gap-4">
+                            <div
+                                class="h-9 w-9 bg-white rounded-full flex justify-center items-center"
+                            >
+                                <img src="images/icons/phone.svg" alt="phone" />
+                            </div>
+                            <div class="flex flex-col">
+                                +375 (25) 7780182 <span>(Telegram)</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div
+                                class="h-9 w-9 bg-white rounded-full flex justify-center items-center"
+                            >
+                                <img src="images/icons/mail.svg" alt="mail" />
+                            </div>
+                            <div>nick.mr.volk@gmail.com</div>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div
+                                class="h-9 w-9 bg-white rounded-full flex justify-center items-center"
+                            >
+                                <img src="images/icons/github.svg" alt="github" />
+                            </div>
+                            <div>
+                                <a
+                                    href="https://github.com/NikMrVolk"
+                                    target="_blank"
+                                    class="underline"
+                                    >GitHub</a
+                                >
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div
+                                class="h-9 w-9 bg-white rounded-full flex justify-center items-center"
+                            >
+                                <img src="images/icons/telegram.svg" alt="telegram" />
+                            </div>
+                            <div>
+                                <a href="https://t.me/NickMozav" target="_blank" class="underline"
+                                    >Telegram</a
+                                >
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div
+                                class="h-9 w-9 bg-white rounded-full flex justify-center items-center"
+                            >
+                                <img src="images/icons/location.svg" alt="location" />
+                            </div>
+                            <div>Grodno, Belarus</div>
+                        </li>
+                        <li class="flex items-center gap-4">
+                            <div
+                                class="h-9 w-9 bg-white rounded-full flex justify-center items-center"
+                            >
+                                <img src="images/icons/relocate.svg" alt="location" />
+                            </div>
+                            <div class="max-w-40">Ready to relocate around Belarus</div>
+                        </li>
+                    </ul>
+                </section>
+                <section
+                    class="flex flex-col gap-4 bg-lineLightBrown rounded-2xl py-6 px-8 text-textOnBrownBg w-72"
+                >
+                    <h2 class="flex justify-center text-2xl">Skills</h2>
+                    <ul class="marker:textOnBrownBg list-disc pl-6 flex flex-col gap-2">
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS, CSS Modules, SCSS, Styled Components</li>
+                        <li>React</li>
+                        <li>Next</li>
+                        <li>Node JS</li>
+                        <li>Mongo DB</li>
+                        <li>PostgreSQL</li>
+                        <li>Jest</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+                <section
+                    class="flex flex-col gap-4 bg-lineLightBrown rounded-2xl py-6 px-8 text-textOnBrownBg w-72"
+                >
+                    <h2 class="flex justify-center text-2xl">Language</h2>
+                    <ul class="marker:textOnBrownBg list-disc pl-6 flex flex-col gap-2">
+                        <li>Russian (Advanced) C1</li>
+                        <li>English (Intermediate+) B1+</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="flex flex-col gap-8 px-10 grow">
+                <section class="flex flex-col gap-2">
+                    <h2
+                        class="self-center text-lg bg-lineLightBrown text-textOnBrownBg max-w-60 rounded-3xl flex justify-center p-2 w-80"
+                    >
+                        Summary
+                    </h2>
+                    <p class="opacity-60">
+                        A young and ambitious developer, who fell in love with JS. Experienced
+                        Frontend Developer passionate to solve comples problems and deliver
+                        high-quality software solution
+                    </p>
+                </section>
+                <section class="flex flex-col gap-2">
+                    <h2
+                        class="self-center text-lg bg-lineLightBrown text-textOnBrownBg max-w-60 rounded-3xl flex justify-center p-2 w-80"
+                    >
+                        Experience
+                    </h2>
+                    <p class="opacity-60">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tenetur
+                        expedita, distinctio eius vitae eligendi nam. Asperiores debitis dolores
+                        blanditiis, excepturi, atque beatae repellendus at numquam enim sequi in
+                        ipsa deserunt distinctio. Recusandae deleniti perferendis blanditiis
+                        cupiditate eligendi, magnam porro in eum natus odio corporis, dolorum
+                        inventore beatae, architecto facilis! Quos, adipisci. Sit fugit ex
+                        architecto beatae dignissimos ad consequuntur commodi? Libero odit autem
+                        deleniti saepe suscipit odio laborum
+                    </p>
+                </section>
+                <section class="flex flex-col gap-2">
+                    <h2
+                        class="self-center text-lg bg-lineLightBrown text-textOnBrownBg max-w-60 rounded-3xl flex justify-center p-2 w-80"
+                    >
+                        Pet Projects
+                    </h2>
+                    <div class="opacity-60">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur,
+                            voluptatum. Possimus sint id, beatae reprehenderit eligendi est minus
+                            recusandae vero unde quia adipisci pariatur cumque fugit ut, obcaecati
+                            excepturi molestias mollitia veritatis veniam quam quo maiores molestiae
+                            vel. Velit tempora aliquid labore esse dolorem, unde reiciendis minima
+                            voluptatibus nam mollitia facere corrupti
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                            tenetur expedita, distinctio eius vitae eligendi nam. Asperiores debitis
+                            dolores blanditiis, excepturi, atque beatae repellendus at numquam enim
+                            sequi in ipsa deserunt distinctio. Recusandae deleniti perferendis
+                            blanditiis cupiditate eligendi, magnam porro in eum natus odio corporis,
+                            dolorum inventore beatae, architecto facilis! Quos, adipisci. Sit fugit
+                            ex architecto beatae dignissimos ad consequuntur commodi? Libero odit
+                            autem deleniti saepe suscipit odio laborum
+                        </p>
+                    </div>
+                </section>
+                <section class="flex flex-col gap-2">
+                    <h2
+                        class="self-center text-lg bg-lineLightBrown text-textOnBrownBg max-w-60 rounded-3xl flex justify-center p-2 w-80"
+                    >
+                        Education
+                    </h2>
+                    <p class="opacity-60">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, architecto
+                        voluptatibus. Eligendi voluptatibus in magnam et unde sit alias dolorum fuga
+                        neque maiores voluptatem, hic velit quo voluptas reiciendis consequuntur
+                        amet animi nihil quibusdam? Corporis ea consectetur eaque fugit quia!
+                    </p>
+                </section>
+            </div>
         </div>
     </body>
 </html>

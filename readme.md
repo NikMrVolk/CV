@@ -1,51 +1,18 @@
-<div style='display:flex; gap:20px; align-items:center;'>
-    <img src='images/photo.jpg' style='border-radius:100%; width:80px'>
-    <div style='display:flex; flex-direction:column'>
-        <div style='font-size:40px'>Nikita Zavadskiy</div>
-        <div style='font-size:20px'>Frontend React Developer</div>
-    </div>
-</div>
+# CV Frontend React Developer
 
-## Contacts
+## Contacts ( Nikita Zavadskiy )
 
-<div style='display:flex; flex-direction:column; gap:10px'>
-    <div style='display:flex; gap:10px; align-items:center;'>
-        <div style='width:35px; height:35px; border-radius:100%; background-color:white; display:flex; align-items:center; justify-content:center'>
-            <img src='images/icons/phone.svg' style='width:25px; height:25px;' />
-        </div>
-        <div>+375257780182 (Telegram)</div>
-    </div>
-    <div style='display:flex; gap:10px; align-items:center;'>
-        <div style='width:35px; height:35px; border-radius:100%; background-color:white; display:flex; align-items:center; justify-content:center'>
-            <img src='images/icons/mail.svg' style='width:25px; height:25px;' />
-        </div>
-        <div>nickmozav@gmail.com</div>
-    </div>
-    <div style='display:flex; gap:10px; align-items:center;'>
-        <div style='width:35px; height:35px; border-radius:100%; background-color:white; display:flex; align-items:center; justify-content:center'>
-            <img src='images/icons/github.svg' style='width:25px; height:25px;' />
-        </div>
-        <a href="https://github.com/NikMrVolk" target="_blank" class="underline">GitHub</a>
-    </div>
-    <div style='display:flex; gap:10px; align-items:center;'>
-        <div style='width:35px; height:35px; border-radius:100%; background-color:white; display:flex; align-items:center; justify-content:center'>
-            <img src='images/icons/telegram.svg' style='width:25px; height:25px;' />
-        </div>
-        <a href="https://t.me/NickMozav" target="_blank" class="underline">Telegram</a>
-    </div>
-    <div style='display:flex; gap:10px; align-items:center;'>
-        <div style='width:35px; height:35px; border-radius:100%; background-color:white; display:flex; align-items:center; justify-content:center'>
-            <img src='images/icons/location.svg' style='width:25px; height:25px;' />
-        </div>
-        <a href="https://www.google.com/maps/place/Grodno" target="_blank" class="underline">Grodno, Belarus</a>
-    </div>
-    <div style='display:flex; gap:10px; align-items:center;'>
-        <div style='width:35px; height:35px; border-radius:100%; background-color:white; display:flex; align-items:center; justify-content:center'>
-            <img src='images/icons/relocate.svg' style='width:25px; height:25px;' />
-        </div>
-        <div>Ready to relocate around Belarus</div>
-    </div>
-</div>
+-   +375257780182 (Telegram)
+
+-   nickmozav@gmail.com
+
+-   [GitHub](https://github.com/NikMrVolk)
+
+-   [Telegram](https://t.me/NickMozav)
+
+-   [Grodno, Belarus](https://www.google.com/maps/place/Grodno)
+
+-   Ready to relocate around Belarus
 
 ## Skills
 

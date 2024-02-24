@@ -1,80 +1,53 @@
-# CV Frontend React Developer
+# Nikita Zavadskiy CV - Junoir JavaScript Developer
 
-## Contacts ( Nikita Zavadskiy )
-
--   +375257780182 (Telegram)
-
--   nickmozav@gmail.com
-
--   [GitHub](https://github.com/NikMrVolk)
-
--   [Telegram](https://t.me/NickMozav)
-
--   [Grodno, Belarus](https://www.google.com/maps/place/Grodno)
-
+-   Github: [https://github.com/NikMrVolk](https://github.com/NikMrVolk)
+-   Telegram: [https://t.me/NickMozav](https://t.me/NickMozav)
+-   Email: [nickmozav@gmail.com](mailto:nickmozav@gmail.com)
+-   Phone: [+375257780182](tel:+375257780182)
+-   Location: [Grodno, Belarus](https://www.google.com/maps/place/Grodno)
 -   Ready to relocate around Belarus
+-   Age: 23
 
-## Skills
+## Technologies i worked with
 
--   JavaScript
--   TypeScript
--   Tailwind CSS, CSS Modules, SCSS, Styled Components
--   React
+-   JavaScript / TypeScript
+-   Tailwind CSS, CSS in JS
 -   Next
+-   React
 -   Zustand, TanStack Query, Redux, MobX
--   Node JS (Express, Nest JS)
 -   Mongo DB
 -   PostgreSQL
 -   Jest
--   Git (GitHub, GitLab)
-
-## Languages
-
--   Russian (native)
--   English (intermediate+) B1+
+-   Git
 
 ## Experience
 
-### Front-end Developer
+### [Arena Games](https://arenavs.com/) Web3 gaming platform
+- Updating existing react components 
+- Creating new react components 
+- Working with REST API
+- CSS animations
 
-[Website Arena Games](https://arenavs.com/) | [pl9 Company one year](https://pl9.space/)
+### [Plan9](https://plan9.tech/) Software development company
+- Updating website pages for the clients 
+- Writing JEST test 
+- Testing design system behavior
+- CSS animations
 
-Website of a company aimed at developing mobile games as well as selling NFTs related to these games
-
-#### My responsibilities included:
-
--   development of new website pages, as well as changing the content of existing pages
--   implementation of new connections with the server
--   working with a list of shortcomings on the part of tester related to inconsistency of layout, as well as eliminating problems with functionality
--   implementation of solutions related to animation used on the site
-
-#### Technology stack:
-
-TypeScript, Next JS (pages router), Tailwind CSS, Zustand, React Query, GitLab
-
-## Aducation
-
-### [Sky Pro Web developer](https://sky.pro/courses/programming/web-developer)
-
-#### Technology stack:
-
-HTML, CSS, CSS Modules, Styled Components, JavaScript, TypeScript, React, Redux, Express, MongoDB
-
-#### Additionally:
-
-During training,I provide tutoring to help other students master the material, which included numerous studies of other people code and developing the skill of explaining information to others
-
-## Pet projects
-
-### [Digital finance dashboard](https://github.com/NikMrVolk/digital-finance-dashboard)
+### [Pet project: Finance Fashboard](https://github.com/NikMrVolk/digital-finance-dashboard)
 
 Website for working with financial wallet, tracking increases and decreases in the value of shares, as well as their purchase.
 
-#### Technology stack:
+## Education
 
-Frontend - TypeScript, Next JS (app router), Tailwind CSS, TanStack Query
-Backend - Nest JS, PostgreSQL, Prisma
+### [Sky Pro Web Developer](https://sky.pro/courses/programming/web-developer)
+
+During training,I provide tutoring to help other students master the material, which included numerous studies of other people code and developing the skill of explaining information to others.
+
+## Languages
+-   Russian (native)
+-   English (intermediate+) B1+
 
 ## About me
 
-I am 23 years old, I initially tried to realize myself in the legal industry, which I devoted 5 years of my life, but this area did not meet the requirements of my personal growth. Over the past few years, I have been carefully practicing programming, choosing the Javascript language and the associated infrastructure for development, which I have never regretted. I know that my determination and perseverance will bring the desired result to your company and business. In my free time, I enjoy reading and watching movie, as well as traveling
+Over the past few years, I have been practicing programming, choosing the Javascript language and the associated infrastructure for development, which I have never regretted.

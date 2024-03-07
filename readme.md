@@ -1,5 +1,6 @@
-# Nikita Zavadskiy CV - Junoir JavaScript Developer
+# Junoir JavaScript Developer
 
+-   Name: Nikita Zavadskiy
 -   Github: [https://github.com/NikMrVolk](https://github.com/NikMrVolk)
 -   Telegram: [https://t.me/NickMozav](https://t.me/NickMozav)
 -   Email: [nickmozav@gmail.com](mailto:nickmozav@gmail.com)

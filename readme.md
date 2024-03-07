@@ -1,13 +1,13 @@
 # Junoir JavaScript Developer
 
 -   Name: Nikita Zavadskiy
+-   Age: 23
 -   Github: [https://github.com/NikMrVolk](https://github.com/NikMrVolk)
 -   Telegram: [https://t.me/NickMozav](https://t.me/NickMozav)
 -   Email: [nickmozav@gmail.com](mailto:nickmozav@gmail.com)
 -   Phone: [+375257780182](tel:+375257780182)
 -   Location: [Grodno, Belarus](https://www.google.com/maps/place/Grodno)
 -   Ready to relocate around Belarus
--   Age: 23
 
 ## Technologies i worked with
 
